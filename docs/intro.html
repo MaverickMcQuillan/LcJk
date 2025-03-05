@@ -20,27 +20,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -88,6 +68,9 @@ div.csl-indent {
     "search-label": "Search"
   }
 }</script>
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 </head>
@@ -155,8 +138,17 @@ div.csl-indent {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#究竟是什么让别人喜欢你" id="toc-究竟是什么让别人喜欢你" class="nav-link active" data-scroll-target="#究竟是什么让别人喜欢你"><span class="header-section-number">2</span> 究竟是什么，让别人喜欢你？</a>
+  <ul class="collapse">
+  <li><a href="#究竟是什么让别人喜欢你-1" id="toc-究竟是什么让别人喜欢你-1" class="nav-link" data-scroll-target="#究竟是什么让别人喜欢你-1"><span class="header-section-number">2.1</span> 究竟是什么，让别人喜欢你？</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -180,15 +172,28 @@ div.csl-indent {
 </header>
 
 
-<p>你好 This is a book created from markdown and executable code.</p>
-<p>See <span class="citation" data-cites="knuth84">Knuth (<a href="references.html#ref-knuth84" role="doc-biblioref">1984</a>)</span> for additional discussion of literate programming.</p>
-
-
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
-<div id="ref-knuth84" class="csl-entry" role="listitem">
-Knuth, Donald E. 1984. <span>“Literate Programming.”</span> <em>Comput. J.</em> 27 (2): 97–111. <a href="https://doi.org/10.1093/comjnl/27.2.97">https://doi.org/10.1093/comjnl/27.2.97</a>.
+<section id="究竟是什么让别人喜欢你" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> 究竟是什么，让别人喜欢你？</h1>
+<section id="究竟是什么让别人喜欢你-1" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="究竟是什么让别人喜欢你-1"><span class="header-section-number">2.1</span> 究竟是什么，让别人喜欢你？</h2>
+<p>老景在这里讲了一个观点，就是别人喜不喜欢你主要看的是你这个人的性格，而不是外在的一些东西（学历、颜值）。那如何变成这种人是非常关键的问题，他也提出到有钱和有学历在某种程度上能通过外在来改变你的内在，但他应该更认为通过他课程的训练也可以更彻底的改变自身的性格。</p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+A[坏性格] --&gt; A1[高学历、高颜值、有钱] &amp; A2[通过老景的课程训练提升认知] --&gt; B[好性格]
+</pre>
+</div>
+<p></p></figure><p></p>
 </div>
 </div>
+</div>
+
+
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
